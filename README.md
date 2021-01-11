@@ -22,13 +22,15 @@ npm install
 npm run start
 ```
 
-Run the blogs server
-Open another terminal window
+After this process the `localhost: 3000` page will automatically open in your browser or access <a href="http://127.0.0.1:3000" target="_blank">http://127.0.0.1:3000</a>
+
+Run the blogs server on another terminal window to get the blogs information:
 ```bash
 cd blog-react
 npx json-server --watch data/db.json --port 8000
 ```
-After this process the `localhost: 3000` page will automatically open in your browser or access <a href="http://127.0.0.1:3000" target="_blank">http://127.0.0.1:3000</a>
+
+You can check the blogs data on `http://localhost:8000/blogs`
 
 ## :heart: Feedback
 
